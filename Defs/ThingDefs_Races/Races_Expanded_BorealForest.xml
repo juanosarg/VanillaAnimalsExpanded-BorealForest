@@ -157,7 +157,7 @@
   </PawnKindDef>
   
    <!-- ======================= Arctic Coyote =============================== -->
-  <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
+  <ThingDef ParentName="AnimalThingBase">
     <defName>AEXP_ArcticCoyote</defName>
     <label>arctic coyote</label>
     <description>A small canine native to tundra and boreal forests. It's capable of hunting much bigger prey, and is often found in packs, similar to a wolf.</description>
