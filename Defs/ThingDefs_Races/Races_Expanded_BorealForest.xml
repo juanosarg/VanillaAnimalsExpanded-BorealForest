@@ -252,7 +252,7 @@
 					<def>AnimalAdult</def>
 					<minAge>0.45</minAge>
 					<soundWounded>AEXP_Pawn_ArcticCoyote_Wounded</soundWounded>
-					<soundDeath>Pawn_ArcticDog_Death</soundDeath>
+					<soundDeath>Pawn_Dog_Death</soundDeath>
 					<soundCall>AEXP_Pawn_ArcticCoyote_Call</soundCall>
 					<soundAngry>AEXP_Pawn_ArcticCoyote_Angry</soundAngry>
 				</li>

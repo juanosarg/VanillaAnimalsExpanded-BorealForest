@@ -2,7 +2,7 @@
 <Defs>
   
   <SoundDef>
-    <defName>AEXP_Pawn_Hyena_Angry</defName>
+    <defName>AEXP_Pawn_ArcticCoyote_Angry</defName>
     <context>MapOnly</context>
     <eventNames />
     <maxVoices>2</maxVoices>
@@ -10,12 +10,12 @@
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawns/Hyena/Pawn_Hyena_Angry</clipFolderPath>
+            <clipFolderPath>Pawns/ArcticCoyote/Pawn_Coyote_Angry</clipFolderPath>
           </li>
         </grains>
         <volumeRange>
-          <min>15</min>
-          <max>15</max>
+          <min>25</min>
+          <max>25</max>
         </volumeRange>
         <pitchRange>
           <min>0.9</min>
@@ -31,14 +31,14 @@
   </SoundDef>
 
   <SoundDef>
-    <defName>AEXP_Pawn_Hyena_Wounded</defName>
+    <defName>AEXP_Pawn_ArcticCoyote_Wounded</defName>
     <context>MapOnly</context>
     <eventNames />
     <subSounds>
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawns/Hyena/Pawn_Hyena_Wounded</clipFolderPath>
+            <clipFolderPath>Pawns/ArcticCoyote/Pawn_Coyote_Wounded</clipFolderPath>
           </li>
         </grains>
         <volumeRange>
@@ -59,15 +59,17 @@
     </subSounds>
   </SoundDef>
 
-  <SoundDef>
-    <defName>AEXP_Pawn_Hyena_Death</defName>
+ 
+  
+    <SoundDef>
+    <defName>AEXP_Pawn_ArcticCoyote_Call</defName>
     <context>MapOnly</context>
     <eventNames />
     <subSounds>
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawns/Hyena/Pawn_Hyena_Death</clipFolderPath>
+            <clipFolderPath>Pawns/ArcticCoyote/Pawn_Coyote_Call</clipFolderPath>
           </li>
         </grains>
         <volumeRange>
@@ -75,35 +77,7 @@
           <max>30</max>
         </volumeRange>
         <pitchRange>
-          <min>0.9</min>
-          <max>1.1</max>
-        </pitchRange>
-        <distRange>
-          <min>0</min>
-          <max>70</max>
-        </distRange>
-        <sustainLoop>False</sustainLoop>
-      </li>
-    </subSounds>
-  </SoundDef>
-  
-    <SoundDef>
-    <defName>AEXP_Pawn_Hyena_Call</defName>
-    <context>MapOnly</context>
-    <eventNames />
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawns/Hyena/Pawn_Hyena_Call</clipFolderPath>
-          </li>
-        </grains>
-        <volumeRange>
-          <min>15</min>
-          <max>15</max>
-        </volumeRange>
-        <pitchRange>
-          <min>0.9</min>
+          <min>0.85</min>
           <max>1.1</max>
         </pitchRange>
         <distRange>
