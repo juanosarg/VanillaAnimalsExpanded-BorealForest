@@ -5,7 +5,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AEXP_Otter</defName>
 		<label>otter</label>
-		<description>Long, slim, semi-aquatic mammal dieting mostly on fish and small plants. They are extremaly good swimmers and can hold breath under water for a prolonged amount of time.</description>
+		<description>Long, slim, semi-aquatic mammal dieting mostly on fish and small plants. They are extremely good swimmers and can hold their breath under water for a prolonged period of time.</description>
 		<statBases>
 			<MoveSpeed>3.9</MoveSpeed>
 			<MarketValue>170</MarketValue>
